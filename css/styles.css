@@ -1,3 +1,132 @@
-body {
-    background-color: #fff;
+:root {
+    --primary-text-color: #757575; 
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --hero-bg-color: #2F303A;
+    --primary-bg-color: #FFFFFF;
+    --team-bg-color: #F5F4FA;
 }
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+/* Stules for logo */
+.logo{
+    color: #000000;
+    text-decoration: none;
+}  
+
+.link {
+    text-decoration: none;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.link.accent {
+    color: var(--accent-color);
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts .link {
+    color: var(--primary-text-color);
+}
+
+/* class to cancel dots in ul */
+.list{
+    list-style: none;
+}
+
+/* class for section-titles */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* class for section hero */
+.hero {
+    background-color: var(--hero-bg-color);
+}
+
+/* class for hero title */
+.hero-title {
+    color: var(--primary-bg-color);
+}
+
+.features .section-title {
+    text-transform: uppercase;
+}
+
+/* class for section team */
+.team {
+    background-color: var(--team-bg-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.footer {
+    background-color: var(--hero-bg-color);
+}
+
+.footer-logo {
+    color: var(--primary-bg-color);
+    text-decoration: none;
+}
+
+.footer-adress {
+    color: var(--primary-bg-color);
+    text-decoration: none;
+}
+
+.footer .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* TODO: letter-spacing need to repeat for each fontsize */
+/* 
+    bg-colors body: #FFFFFF
+    Hero and footer: #2F303A
+    features and works: #E5E5E5
+    background our team: #F5F4FA;
+    bg button: #2196F3;
+
+
+    Font-family: Raleway 700(Bold); 
+    Oleo-script 400 regular 26px
+    Roboto 400 Regular, 500 (Medium), 700 Bold, 900
+    logo Size 26px
+    nav size 14px
+    contacts size 14px
+    Hero h1 size 44px
+    button text size 16px
+
+
+
+
+    color of accent: #2196F3;
+    color of nav and h2: #212121;
+    color of contacts and positions: #757575;
+
+*/
