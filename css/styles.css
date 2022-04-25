@@ -27,7 +27,7 @@ body {
     text-decoration: none;
 }
 
-.link.accent {
+.site-nav .link.accent {
     color: var(--accent-color);
 }
 
@@ -102,6 +102,17 @@ body {
 
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
+}
+
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+}
+
+/* Portfolio */
+.portfolio .portfolio-paragraph {
+    color: var(--primary-text-color);
 }
 
 /* TODO: letter-spacing need to repeat for each fontsize */
