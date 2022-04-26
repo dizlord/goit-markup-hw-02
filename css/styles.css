@@ -55,7 +55,11 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts .link:hover,
-.contacts .link:focus {
+.contacts .link:focus,
+.footer .footer-adress:hover,
+.footer .footer-adress:focus,
+.footer .link:hover,
+.footer .link:focus {
     color: var(--accent-color);
 }
 
@@ -106,6 +110,7 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* Styles for titles in features */
@@ -192,6 +197,7 @@ body {
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 /* Portfolio */
