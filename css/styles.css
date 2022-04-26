@@ -218,30 +218,3 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
-
-/* TODO: letter-spacing need to repeat for each font-size
-TODO: font-size for h needs to be install in css */
-/* 
-    bg-colors body: #FFFFFF
-    Hero and footer: #2F303A
-    features and works: #E5E5E5
-    background our team: #F5F4FA;
-    bg button: #2196F3;
-
-
-    Font-family: Raleway 700(Bold); 
-    Roboto 400 Regular, 500 (Medium), 700 Bold, 900
-    logo Size 26px
-    nav size 14px
-    contacts size 14px
-    Hero h1 size 44px
-    button text size 16px
-
-
-
-
-    color of accent: #2196F3;
-    color of nav and h2: #212121;
-    color of contacts and positions: #757575;
-
-*/
