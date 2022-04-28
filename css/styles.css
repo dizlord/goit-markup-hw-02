@@ -59,7 +59,7 @@ body {
 
 /* style for links in contacts */
 .contacts-link {
-    color: var(--primary-text-color);
+    color: currentColor;
     text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
