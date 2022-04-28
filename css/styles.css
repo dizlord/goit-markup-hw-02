@@ -28,44 +28,42 @@ body {
 }  
 
 /* main styles for links */
-.link {
+.nav-link {
+    color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
-/* styles for links in navigation */
-.site-nav .link {
-    color: var(--title-text-color);
-    text-decoration: none;
-}
-
-/* styles for active link in navigation */
-.site-nav .link.accent {
-    color: var(--accent-color);
-}
-
-/* class to add accent */
 .accent {
     color: var(--accent-color);
 }
 
+/* styles for active link in navigation */
+.nav-link.accent {
+    color: var(--accent-color);
+}
+
 /* added effect hover and focus to links in navigation and contacts */
-.site-nav .link:hover,
-.site-nav .link:focus,
-.contacts .link:hover,
-.contacts .link:focus,
-.footer .footer-adress:hover,
-.footer .footer-adress:focus,
-.footer .link:hover,
-.footer .link:focus {
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-link:hover,
+.footer-link:focus {
     color: var(--accent-color);
 }
 
 /* style for links in contacts */
-.contacts .link {
+.contacts-link {
     color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 /* class to cancel dots in ul */
@@ -94,17 +92,14 @@ body {
     text-transform: uppercase;
 }
 
-.primary-button {
-    background-color: var(--accent-color);
-    color: var(--primary-bg-color);
-}
-
 .secondary-button {
     background-color: var(--team-bg-color);
     color: var(--title-text-color);
 }
 
 .hero-button {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -114,15 +109,16 @@ body {
 }
 
 /* Styles for titles in features */
-.features .section-title {
+.features-title {
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 
-.works .section-title,
-.team .section-title {
+.works-title {
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -170,8 +166,14 @@ body {
 }
 
 /* style for footer logo */
-.footer .logo {
+.footer-logo {
     color: var(--primary-bg-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 /* style for footer adress */
@@ -182,16 +184,21 @@ body {
 }
 
 /* styles for links in footer */
-.footer .link {
+.footer-link {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+    text-decoration: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
+/* Portfolio */
+
 .filter-button {
+    background-color: var(--team-bg-color);
+    color: var(--title-text-color);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -200,16 +207,20 @@ body {
     cursor: pointer;
 }
 
-/* Portfolio */
 /* styles for hover and focus for button in portfolio */
-.filter .filter-button:hover,
-.filter .filter-button:focus {
+.filter-button:hover,
+.filter-button:focus {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
 }
 
+.portfolio-link {
+    text-decoration: none;
+}
+
 /* style for title of portfolio */
-.portfolio .section-title {
+.portfolio-title {
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -217,7 +228,7 @@ body {
 }
 
 /* style for p in portfolio */
-.portfolio .portfolio-paragraph {
+.portfolio-paragraph {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
